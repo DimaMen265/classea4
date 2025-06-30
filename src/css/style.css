@@ -138,7 +138,7 @@ textarea {
   top: calc(100% + 1.5rem);
   height: 5px;
   width: 3rem;
-  background: #aaaaaa;
+  background: #32cd32;
   left: 50%;
   transform: translateX(-50%);
   border-radius: 5px;
@@ -210,14 +210,14 @@ textarea {
 }
 
 .btn--theme {
-  background: #aaaaaa;
+  background: #32cd32;
   color: #fff;
 }
 
 .btn--theme-inv {
-  color: #aaaaaa;
+  color: #32cd32;
   background: #fff;
-  border: 2px solid #aaaaaa;
+  border: 2px solid #32cd32;
   box-shadow: none;
   padding: calc(1.5rem - 2px) calc(5rem - 2px);
 }
@@ -254,8 +254,8 @@ textarea {
   color: #fff;
   background: linear-gradient(
       to right,
-      rgba(170, 170, 170, 0.8),
-      rgba(170, 170, 170, 0.8)
+      rgba(50, 205, 50, 0.8),
+      rgba(50, 205, 50, 0.8)
     ),
     url(../assets/svg/common-bg.svg);
   background-position: center;
@@ -475,8 +475,8 @@ textarea {
 .contact {
   background: linear-gradient(
       to right,
-      rgba(170, 170, 170, 0.8),
-      rgba(170, 170, 170, 0.8)
+      rgba(50, 205, 50, 0.8),
+      rgba(50, 205, 50, 0.8)
     ),
     url(../assets/svg/common-bg.svg);
   background-size: cover;
@@ -593,8 +593,8 @@ textarea {
   color: #fff;
   background: linear-gradient(
       to right,
-      rgba(170, 170, 170, 0.8),
-      rgba(170, 170, 170, 0.8)
+      rgba(50, 205, 50, 0.8),
+      rgba(50, 205, 50, 0.8)
     ),
     url(../assets/svg/common-bg.svg);
   background-size: cover;
@@ -757,16 +757,16 @@ textarea {
 }
 
 .header__logo-container:hover {
-  color: #aaaaaa;
+  color: #32cd32;
 }
 
 .header__logo-img-cont {
   width: 5rem;
   height: 5rem;
-  border-radius: 50px;
+  /* border-radius: 50px; */
   overflow: hidden;
   margin-right: 1.5rem;
-  background: #aaaaaa;
+  /* background: #32cd32; */
 }
 
 @media only screen and (max-width: 56.25em) {
@@ -783,6 +783,20 @@ textarea {
   object-fit: cover;
   object-position: center;
   display: block;
+  fill: #32cd32;
+}
+
+.header__logo-sub-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header__sub-logo-sub {
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #32cd32;
 }
 
 .header__logo-sub {
@@ -790,6 +804,7 @@ textarea {
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 1px;
+  color: #32cd32;
 }
 
 .header__links {
@@ -814,7 +829,7 @@ textarea {
 }
 
 .header__link:hover {
-  color: #aaaaaa;
+  color: #32cd32;
 }
 
 @media only screen and (max-width: 56.25em) {
@@ -884,7 +899,7 @@ textarea {
 }
 
 .header__sm-menu-link a:hover {
-  color: #aaaaaa;
+  color: #32cd32;
 }
 
 .header__sm-menu-link:first-child a {
