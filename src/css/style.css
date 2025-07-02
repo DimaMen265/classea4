@@ -181,6 +181,10 @@ textarea {
   letter-spacing: 1px;
 }
 
+.heading-sm-span {
+  color: #32cd32;
+}
+
 .main-container {
   max-width: 120rem;
   margin: auto;
@@ -397,6 +401,10 @@ textarea {
 
 .about__content-details-para:last-child {
   margin-bottom: 4rem;
+}
+
+.about__content-details-para:last-child.about__content-details-mr-none {
+  margin-bottom: 0rem;
 }
 
 .projects__row {
